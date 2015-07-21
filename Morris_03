@@ -1,0 +1,23 @@
+using UnityEngine;
+using System.Collections;
+
+public class Morris_03 : MonoBehaviour {
+
+	public string a = "'Possesses' posseses contains a great number of s's.";
+
+
+	// Use this for initialization
+	void Start () {
+
+		int sCount = 0;
+		for( int i = 0; i < a.Length; i++ ) if ( a[i]=='s' ) sCount++;    
+		print( "the letter s appeared " + sCount + " times." );
+	}
+
+
+	
+	// Update is called once per frame
+	void Update () {
+	
+	}
+}
