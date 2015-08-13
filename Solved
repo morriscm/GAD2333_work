@@ -1,0 +1,23 @@
+using UnityEngine;
+using System.Collections;
+
+public class Solved : MonoBehaviour {
+
+	// Use this for initialization
+	void Start () {
+	
+	}
+	
+	// Update is called once per frame
+	void Update () {
+	
+		if ( Input.GetKeyDown ("space")) 
+			//Looks for the left control button to be pressed
+		{
+			Application.LoadLevel("Puzzle2"); 
+			
+			
+		}
+
+	}
+}
